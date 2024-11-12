@@ -47,7 +47,8 @@ function Hero() {
             </a>
         </span>
         <p className={styles.description}>
-            Passion for Web Development using React and Data Analytics
+        Passionate about building responsive Web Applications 
+        and uncovering insights through Data Analytics.
         </p>
         <a href={CV} download>
             <button className="hover">Resume</button>
