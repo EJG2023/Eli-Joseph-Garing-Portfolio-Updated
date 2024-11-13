@@ -10,7 +10,7 @@ function Projects() {
         <h1 className='sectionTitle'>Projects</h1>
         <div className={styles.projectsContainer}>
             <ProjectCard src={ArcadeIcon} 
-            link="https://github.com/EJG2023/Arcade-Basketball"
+            link="https://github.com/EJG2023/VR-Arcade-Basketball-Application"
             h3="VR Arcade Basketball Game"
             p="Developed an immersive VR Arcade Basketball game using Unity and Blender, featuring 
                realistic basketball mechanics for a dynamic, arcade-style experience."
@@ -18,7 +18,7 @@ function Projects() {
              <ProjectCard src={BasketIcon} 
             link="https://github.com/Je-et/GP_CS476"
             h3="Online Grocery Shopping Application"
-            p="Developed an Online Grocery Shopping Application with a health-centric, personalized experience, 
+            p="Developed an Online Grocery Shopping Application with a health-centric experience and personalized meal-planning, 
             using Python (Flask) and MySQL for backend services, and React for a responsive frontend."
             />       
         </div>
