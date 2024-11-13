@@ -19,7 +19,8 @@ function Hero() {
     const githubIcon = theme === 'light' ? githubLight : githubDark;
     const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
-  return <section id="hero" className={styles.container}>
+  return (
+  <section id="hero" className={styles.container}>
     <div className={styles.colorModeContainer}>
         <img className={styles.hero} 
         /* image needs to be size of 300x300 */ 
@@ -54,8 +55,8 @@ function Hero() {
             <button className="hover">Resume</button>
         </a>
     </div>
-  </section>;
-  
+  </section>
+  );
 }
 
 export default Hero
