@@ -16,7 +16,7 @@ function Projects() {
                realistic basketball mechanics for a dynamic, arcade-style experience."
             />
              <ProjectCard src={BasketIcon} 
-            link="https://github.com/Je-et/GP_CS476"
+            link="https://github.com/EJG2023/Online-Grocery-Application-Project"
             h3="Online Grocery Shopping Application"
             p="Developed an Online Grocery Shopping Application with a health-centric experience and personalized meal-planning, 
             using Python (Flask) and MySQL for backend services, and React for a responsive frontend."
