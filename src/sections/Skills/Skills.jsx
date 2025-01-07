@@ -6,7 +6,7 @@ import { useTheme } from '../../common/ThemeContext';
 
 
 function Skills() {
-    const { theme, toggleTheme } = useTheme();
+    const { theme } = useTheme();
     const checkmarkTheme = theme === 'light' ? checkmarkIconLight : checkmarkIconDark;
     
 
