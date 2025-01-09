@@ -4,7 +4,7 @@
     text-align: center;
 
     /* adjust gap between section */
-    /* margin: -110px; */
+    /* margin-top: -250px; */
 
     img {
         max-width: 250px;
@@ -24,16 +24,27 @@
         transform: scale(1.05);
     }
 
-    .projectsContainer{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
+  
 }
 
-/* mgiht change*/
+.projectsContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* might change*/
 .description {
     max-width: 50ch;
     align-self: center;
+  }
+
+  @media(width >= 800px){
+    .projectsContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 30px;
+    }
   }
